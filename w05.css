@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Barrio');
+
+header{
+  width:100%;
+  height:200px;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZ8OSzpIi43Nu1SfpHD7AbW-ZpaKxW99B6XWH69z5ahDMMlAMKsdDsplFR);
+  background-size: cover;
+  opacity:0.75;
+  text-align: center;
+  font-family: 'Barrio', cursive;
+  font-size: 3rem;
+  color: pink;
+}
+.header-nav{
+  font-size:1.4rem;
+}
+.header-image{
+  position:absolute;
+  top:100px;
+  left:30%;
+}
+.fixed{
+  position: fixed;
+  bottom:30px;
+  right:30px;
+  color:#333;
+}
+
+.fixed:hover{
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+  transition: 1s;
+  opacity: 0.8;
+}
